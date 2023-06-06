@@ -1,0 +1,47 @@
+* {
+   scroll-behavior: smooth;
+   font-family: "Roboto", "sans-serif";
+}
+
+body{
+    margin: 0px;
+}
+
+#header {
+    background-color: #1f2937;
+}
+
+#header nav a h1 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header nav ul a li {
+    list-style: none;
+    color: #e5e7eb;
+    font-size: 18px; 
+}
+
+#header #section1left h1 {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+#header #section1left p {
+    color: #e5e7eb;
+    font-size: 18px; 
+}
+
+#header #section1left button {
+    background-color: #3882f6;
+}
+
+#header #section1left button a {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+}
