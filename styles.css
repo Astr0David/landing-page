@@ -75,7 +75,7 @@ body {
 #header #section1container {
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 1010px;
   padding-bottom: 120px;
   justify-content: space-between;
 }
@@ -93,7 +93,7 @@ body {
 
 #about {
     display: block;
-    width: 68%;
+    width: 870px;
     padding-top: 40px;
 }
 
@@ -159,7 +159,7 @@ body {
 
 #contact #thecontainer {
   background-color: #3882f6;
-  width: 85%;
+  width: 900px;
   display: flex;
   justify-content: space-between;
   border-radius: 7px;
