@@ -181,7 +181,7 @@ body {
 }
 
 #contact #thecontainer .right button {
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 5px;
   background-color: #3882f6;
   padding: 4px 25px;
@@ -192,4 +192,14 @@ body {
   color: #f9faf8;
   font-size: 18px;
   font-weight: 400;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+}
+
+footer p {
+  padding: 35px;
 }
