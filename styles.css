@@ -1,10 +1,12 @@
 * {
   scroll-behavior: smooth;
-  font-family: "Roboto", "sans-serif";
   margin: 0 auto;
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
 #header {
   background-color: #1f2937;
 }
@@ -109,20 +111,85 @@
 #about #aboutbottom {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 #about #aboutbottom div {
-    width: 170px;
+    width: 180px;
     text-align:center;
 }
 
 #about #aboutbottom div img {
     border-radius: 15px;
-    border: 4px solid #3882f6;
+    border: 5px solid #3882f6;
 }
 
 #about #aboutbottom div p {
     padding-top: 5px;
     color: #1f2937;
+} 
+
+#quote {
+  background-color: #e5e7eb;
+  display: flex;
+}
+
+#quote div {
+  width: 55%;
+  padding: 100px;
+}
+
+#quote div p {
+  font-size: 36px;
+  font-weight: lighter;
+  padding-bottom: 17px;
+}
+
+#quote div h3 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: end;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+}
+
+#contact #thecontainer {
+  background-color: #3882f6;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  color: white;
+  padding: 40px 0px;
+}
+
+#contact #thecontainer .left {
+  display: block;
+}
+
+#contact #thecontainer .left h4 {
+  font-size: 20px;
+}
+
+#contact #thecontainer .right {
+  display: flex;
+  align-items: center;
+}
+
+#contact #thecontainer .right button {
+  border: 3px solid white;
+  border-radius: 5px;
+  background-color: #3882f6;
+  padding: 4px 25px;
+}
+
+#contact #thecontainer .right button a{
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 400;
 }
